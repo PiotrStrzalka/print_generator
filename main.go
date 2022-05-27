@@ -90,7 +90,7 @@ func GeneratePrintOrder(start, end, pagesOnSheet, sheetInBatch int) ([][]int, er
 func main() {
 	start := flag.Int("start", 1, "Start page number")
 	end := flag.Int("end", 0, "End page number")
-	batch := flag.Int("batch", 0, "End page number")
+	batch := flag.Int("batch", 0, "How many pages printed to be cut together")
 	flag.Parse()
 
 	res, err := GeneratePrintOrder(*start, *end, 4, *batch)

@@ -2,3 +2,5 @@ Program creates order of pages to print them on sheet of paper double sided 2 pa
 Useful when you want to print some pdf in A5 book format.
 
 For usage type: **go run main.go --help**
+
+ustawienia dla Brother DCP-L3550 (druk dwustronny, 2 na 1, krótka krawędź (prawa strona))
